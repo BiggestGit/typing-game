@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d11od832wuelh"]
 
-[ext_resource type="Texture2D" uid="uid://d1hydf6deoiw2" path="res://Sprites/sprite.png" id="1_0eyao"]
+[ext_resource type="Texture2D" uid="uid://d1hydf6deoiw2" path="res://Graphics/sprite.png" id="1_0eyao"]
 [ext_resource type="Script" uid="uid://bliuvir8l2fun" path="res://Scripts/Characters/main_character.gd" id="2_11o2n"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jabxv"]
@@ -10,6 +10,7 @@ size = Vector2(152, 514)
 
 [node name="Sprite" type="Sprite2D" parent="." unique_id=870528770]
 position = Vector2(552, 315)
+scale = Vector2(0.6, 0.6)
 texture = ExtResource("1_0eyao")
 script = ExtResource("2_11o2n")
 
