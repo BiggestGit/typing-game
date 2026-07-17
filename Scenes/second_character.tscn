@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://d11od832wuelh"]
+[gd_scene format=3 uid="uid://bnpro2rfx58fi"]
 
-[ext_resource type="Texture2D" uid="uid://d1hydf6deoiw2" path="res://Sprites/sprite.png" id="1_0eyao"]
-[ext_resource type="Script" uid="uid://bliuvir8l2fun" path="res://Scripts/Characters/main_character.gd" id="2_11o2n"]
+[ext_resource type="Texture2D" uid="uid://dejvw66y2gj5w" path="res://Sprites/sprite2.png" id="1_86cgm"]
+[ext_resource type="Script" uid="uid://s7os6ende5c2" path="res://Scripts/Characters/second_character.gd" id="2_esqdq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jabxv"]
 size = Vector2(152, 514)
@@ -10,8 +10,8 @@ size = Vector2(152, 514)
 
 [node name="Sprite" type="Sprite2D" parent="." unique_id=870528770]
 position = Vector2(552, 315)
-texture = ExtResource("1_0eyao")
-script = ExtResource("2_11o2n")
+texture = ExtResource("1_86cgm")
+script = ExtResource("2_esqdq")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Sprite" unique_id=1370128232]
 position = Vector2(-552, -315)

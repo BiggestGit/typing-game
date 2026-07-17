@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://dh3foled8kal8"]
 
+[ext_resource type="PackedScene" uid="uid://bnpro2rfx58fi" path="res://Scenes/second_character.tscn" id="1_8gbba"]
+[ext_resource type="PackedScene" uid="uid://d11od832wuelh" path="res://Scenes/main_character.tscn" id="1_jjgbg"]
+[ext_resource type="Script" uid="uid://bliuvir8l2fun" path="res://Scripts/Characters/main_character.gd" id="2_bo1nx"]
+
 [node name="Main" type="Node2D" unique_id=635619269]
+
+[node name="SecondCharacter" parent="." unique_id=1497331851 instance=ExtResource("1_8gbba")]
+
+[node name="MainCharacter" parent="." unique_id=861941764 instance=ExtResource("1_jjgbg")]
+script = ExtResource("2_bo1nx")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1342215435]
+offset = Vector2(0, 300)
+zoom = Vector2(0.4, 0.4)
